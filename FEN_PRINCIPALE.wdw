@@ -1,0 +1,683 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_PRINCIPALE
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_PRINCIPALE
+ identifier : 0x217ab5651a75116f
+ internal_properties : CAAAAAgAAAD8Emdum1VRFrO2jgrWqhYUmVGNYJ0MIEiz6oVWzpMlBa/sXfw8mEzGD7uXxQDZH2swDTadFICcHIxKPXm4R0e2fBhTNC3TxxvANM4RF0NPkbrq4fV4tPagcoQ05s3EvXIC6d2Z+GA2gP6nJdbLPl9iISv+aUugDqd/9Q/eWO44A5YN6Q6z43TUuWw8j5JjXzMqQC5NLnhYkZmfvMbN6/B+uLAtqvtGOYTwVjZXw8rKv3otW9AM0lvrKaMEWZls4e2Z+20WYDVp4uJDZr6j79XzyRZ6dA6FZDs1YoABhDp3IY5gYQCs2ifxiuFP36IPYUUkkUtl4BThzsibFEH2rNA7x8wBjCcRCl3+k8p0CaGIJJApAtOD6KOB3yhQ/7Uw9sTtxZGYBCf9UjkXquq85lCb0jIOThOG0JawKeY09k7kWXnhDYmuTwhx6DMvZYZ0CwGZCT9eZf3bCzPgP9rIM86VGsfIUl0pzE7TuYI2hnwkSR7Uh42TjnqABtbY2/jQSoHmTK14dU6waEoH1EuT6WvwkDc0QS5T4RjKiP17qRnGp2xBkh9++X9XO+mFsZQPYsvI11rMP4Z88IPPASZp91eouZ/UQWnJ6A9PHJCpABH8YndFq2BHZka9fnTp0tb3KWS7mSajH2Wf7MAEgtPGAWaEKaSX5i4MNOcyqWZp1GcYE32u1aYRW13f5kbE87NnE2SPn0NPDUKJgQxAwp0MwjPOjEd43fPTg+aN14emcNA3QLqekxnHvNFj/U806Rx4Y7weG488V2OWgEZ+7OaDXphtBxX10xgmHSq6xHxKtivYRcr5bXWsNkxMaITgZ64FKm4ZDeKDMZAUmuNkdeI+riXodp+20obOXijCdSLvS9k8SJ4rqaeORz3EjWO7zgneuRaZMTNzNkBWtFI=
+ properties :
+  width : 360
+  height : 569
+  heightMin : 650
+ controls :
+  -
+    name : ZR_TELECHARGEMENTS
+    identifier : 0x217abd571af01a61
+    internal_properties : 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
+    properties :
+     y : 42
+     width : 360
+     height : 527
+    controls :
+     -
+       name : LIB_NOM_FICHIER
+       identifier : 0x217ac04c1b26a7f6
+       internal_properties : CAAAAAgAAAB4hoJCMptWvvp9WfA6PRTs3iM6KWrJzGXYE+QX5d0imkQdZZM/pTPyMpuss6jRk+6BDrhDx0bMvpQurLM801W+8mkrcEHaUNLN2vwCEvl1fTZv87hPd6kSMcBTzVEeToN6A9YnUXmUlZSyHf7nIPoM8MjTWlgJFP0IkZ8L6GH3Ztn4jT3Ro5qXQkV4EzwRB8e62p0KP8iV9xDitjJQJV4+VYXEnklcRtRY4Swcfs04Le4IkerNOJUSm3Jk2ZLLRlb1bUi0f6jofu5rTG1bI2N8nUUYEfUOGf7Urfr2eruOoOcusgMdBruvYQIwr0ZLV8A8Y9JQvWxFJ9QMtdxRzufJHH2M8+iuU2gu7mCs/q6Lmyvib93yWmLPEYBY1DNIHZCtm8XxZULRgOXKRhcr85ndcaBv8OnaCRrUiL9bner8aLSaNya9VqieHLAaZYxxkFODgjoehBVPXxwQVTexBrwTy8TW01c=
+       properties :
+        x : 55
+        y : 8
+        width : 256
+        height : 24
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_TYPEMIME
+       identifier : 0x217ac3031c1b4483
+       internal_properties : CAAAAAgAAABaoY7DoIVVxK/oosSTKiIpVuaJCAV3oQ3vyPVq8OyAKrpgPbvgpJDsInKpiMqb0ke4IZlqcC0UMrWqGA8oBji63J5c2X0IY0S8zpQ4kRsB3Pa+9WIeWgQCDW/VDZV6bXkygxUS0C1ROzpsE9i1o0UNosKLW2R/mCHF3FehZWNsr5870Ep8mQYlnmbyyc+/Sc1AThSR11my0TrqVPj3KrrVa9YgFcQDfz7iQDXfZrSSziUL8Q4hlxDA9qG9kBZD569IbETaBNH6hrjobc9yyYVGCK3XHPXyLVo/HA9zMhTVdDHw3Ik5aewTwpBEbfMmEp0FXlqItHQLEUaaYciTCoQqsT2O3+HIKuTdA3NXzR3+3y1e1BPiLJk5swyOb3u6geQc4cq/5QcaLKAe0/RPh41pM9yZoz8NbkJYU1yCcIEcVajFVjlgzQwfR1iIxGtxnsMXCjVuj6rbJCB3v9mvxqk8euUVYHKHQ6WlnLUNse+ekXK90/RRBOQ2ki7ejGBuIuKNtDPknQjB0kjGfOuaTaZFitTNY58x9oXO+btvNbhxNMyJRtpCfaZ5VZxpc1oszGHj7JpiczdmZ0fXXNbyigMfyM1bKiOEUOL6Oc70LsjxGvFvO3lKl/bPFEdr5OwvirwNX+VlKzubJtxSnwg2cuDmEw5ZNUdC8w8LTheX6hYxHuxTwoSSZY3HM2wJE/Y5M8Za0HSYKLJqT48kNjNuO2751wrDCa6J3Fbn9J2M2eHkkDqvAMuXuf9pNrK3gkza5tgQu+GF+yab874k+2MOf7Gz+1GeeLxUZ2FVoeBhEy51tg==
+       properties :
+        x : 8
+        y : 8
+        width : 34
+        height : 34
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : LIB_TYPEMIME
+       identifier : 0x217ac3d81c7783b0
+       internal_properties : CAAAAAgAAADjM4D4rU5LeKHNoN1tWEupMsvy/rUgft4euK5moURccdGxI8fYQispSjg2hE8gIbpkWC97gGfa5BisgMuyI+lsKomuP79+jXsN8f6UdwCLB7rAC4ZB28G8s50DtIP9PbcWuZ4I18hVtGPviLZldamrpkvGw/lp9sgY7gcK0QC06dAUpDuhpGPXlDX3hVez8okfeMFYL/uelpYLSTPqayXwZFJ/4GNw3FZy3XbPq31aMomwwRHlhvK6VRe5Z5Xh079XW0cYIxXeaVygU4m5NiKmSNynwlgHuh6lhyNK+McRq05zW0HWU9Kt3FXoY3bocc3CsBqwgNR7Pj6VcqNncldjICWQpdPuY+ba2OJSQZHRbyb+YWtZtnxWOxcqWvSEs7S0Wkz5U0OxE0VGPM11Tsrosw0Ya2AcQXz/2fwFONzpBUKk1vpcioxXBdmYc2E6n/seTkcW8mABpf1Z/c5D8oCjTpSIxYx5smrLS2ZKDPsvVbfuJb4qr4AgyaaBenVA0BBJT6JOvrQGbOM/TqWQ4mHwZQ==
+       properties :
+        x : 8
+        y : 8
+        width : 34
+        height : 34
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_INFO_FICHIER
+       identifier : 0x217ac47d1ce70913
+       internal_properties : CAAAAAgAAABNrHOe21nFLTIriAa4A8n3T6/2c8pfx4FQxS6Chh+jE3GDpyOTsEOHhO8Sj7W3yczmvxk80P7Aq3RxlJNzceKETiZRuowXRdPrHO0hG0irvlCKnqhX+Pa+DIhed2n7+sfZKyV5319ofRm6PZugWz2EKSwIg++kntLFAQbgaNOqdYAltyI8LmOaONRoCS+Q+t9hLbhGHWYitLH4fRKmAh4pItzfdnA4swNUJTUW+X9Ogds6dVjufjcIxo40rJQ82t9pW274dKlAcLLI1zSDauIL535v3peX8xo7EPWPqApU4s6iqqgEfHit1e32EGe9j1Hbs0TusyRfwELISELkek71g1/mfHarU+b9K47WB+d6L11UM3dnMColvG+hqvfDvaJQX0u2SDt6rrL+GoAiyHguhF1KYY/ihoXnPeSVfO2xpB6X0iGxjUtAnRncgsP7au0cWU9yxHJ4N3D/y1LQqWZwtdB1ySYP1FAXyIMYM9IAB14wRiiZOkBnVAb+rmiUi1DmtSLYCYheVxTZYxpO
+       properties :
+        x : 55
+        y : 32
+        width : 256
+        height : 24
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+     -
+       name : BTN_OPTIONS
+       identifier : 0x217ad1911dc41e97
+       internal_properties : CAAAAAgAAABkRc0JJNYBRw4DoGCotIFbanF28uSKAZFyYObPuo5Sv6iiKqNpcWw/ISEkPS0uAqM0jK4hF9hMU7xA8wfpoOBn6o1rMAJ33NHLF11CNPggOVAIJLMuVYuJbVwS+lFoA8ylYXIuV/Xh0BZC64TZxan4sKdu6HylAiC9f3zjcyJSG7WY3YezM/+m/5Ga+CMJ0g1x0DUNuXXxBYo9Oypyqki8/A0iji4uLZiU9IcyODMpdb5107ZkyZzRK6tMd8TO0lJd6GHBpVi3y2TXFQJE3/J5Z/WSLsmyQILeo8oFPvsJRjyPcjEZS38nWSfRkYI4GMsRrw2BjUDbBCAJWJw04prDlYCVjb368XPh0/sn0ku2Nvj1jd19+evjHDIJLm0/fGC5YKpXqk/fswwF01HKEdcKbPvh5TVysnS104Z3X1eYSrW6tEl8W6V03UhB88hcTphnAH6T5zGf6bcKnzOw09zpITno3xu3g45QwVA6t4QkqnL3kbbR+9ZTbbX+hEO8/kJJX8McsBpvrDgRdsv3kHkfsm7lXao8+MpNNNifv80E4GshvCr8Gj9d9wgFk14pXs7skF7jE9AEN+VM5IBEspCDFgCnnUorvmf3mqZL5+Ij6SuyM4IYV4kozJX+DDS644vLlokGtnM72Qhnvs/vzPwB4Mdz0aUdH8pG1DyB6LyFWXEg3xB3O910feSebbjVwEIXwc2G25leNMNTOvq2Fyk2wxoYN+d1C69znyubykTlKZ2az99iPJCi+V5l/g6HgxZtwLmFSwW8+TMo6Tq4AKC3q5PrXYkkvqwkO/WK/6ZCsxspbZVEjv8pYbqrzBVubzAXpVvwBIJe7eG3blGC1r6fq+WOrzHGGfBqMl08PyuC0/2c+mclSx7n4dvT/Q9YRc4MOOUeMigdkht4ZqQAiIWdMOnEudF5VuntKA+UPJRZeBF+m+9ff0+zvmgBeVNCBn1PoppuuGe5rhhJMOzWn3zbpMXyoOkFghHhlh2xowLuBAHrZ6n1u2W3M7bnGHcUf3dhlUmIMbtWWMPDguPdP6084yR9bZNP08MwxT1VvEhdB79BlVb5sMymMKY5h44oB0CoMd9UMHmUdXTOkKDxeIMp5tA8w/KCu2m+U43S7V1WKQJ6GyJDifg2mbkHup8fNztgMlNIeYxmtfvRDzjACUeGYb/6/hkQjAeau7D7Xw==
+       properties :
+        x : 315
+        y : 8
+        width : 34
+        height : 48
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            OuvreMenuContextuel()
+           type : 18
+         -
+           type : 161
+           enabled : false
+    columns :
+     -
+       name : ATT_IDENTIFIANT
+       identifier : 0x217ac20c1bdd7d79
+       internal_properties : CAAAAAgAAAAQIp5D3GTFIBuRs1j6j545mdD8TBGg3eS6Kqky+4tiKu/UTRLwG3r4MHn04gFRQoRk2HjPk4VsbruaLPgTe1lr3Lwfo+W2Y66wCFnj4f0Fzs7mywuAFkSec0Km+gCP72ZF3gQHRHYTFg==
+       type : 3
+       content :
+        identifier : 0x2543d85c02d1cd22
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_ERREUR
+       identifier : 0x217bff7408e85cd2
+       internal_properties : CAAAAAgAAADmFLBlNlK/AvU7FTIcMewLbzqW7tveny7sBag2f1SCN8uWhHY+dRTsnOUyBBsT8lIGMiTTmCBBd3LxhefSaJQGI7PQAl7YD7aNpeUfpT0z+JgohcHe8Br0hVRIGGYpVcgnOO4tIlDpbA==
+       type : 3
+       content :
+        identifier : 0x2543d85c02d3cd22
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         stTéléchargementActualisé est un TéléchargementInfo
+         
+         // Actualise les informations du téléchargement
+         stTéléchargementActualisé = TéléchargementRécupèreInfo( ATT_IDENTIFIANT )
+         
+         // Si le téléchargement est terminé
+         si stTéléchargementActualisé.etat = téléchargementEtatSuccès ALORS
+         	
+         	// Ouvre l'application associée au fichier téléchargé
+         	si LanceAppliAssociée( stTéléchargementActualisé.Destination ) = faux ALORS
+         		
+         		ToastAffiche( "Impossible d'ouvrir le fichier", toastCourt, cvMilieu, chCentre)
+         		
+         	FIN	
+         FIN
+        type : 33
+      -
+        code : |1-
+         
+         ActualiseListe()
+        type : 230
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : LIB_INFO_TAILLETOTALE
+    identifier : 0x217ac0941b39bffd
+    internal_properties : CAAAAAgAAABgujUZ8qtbWYLiowUfcLNuGM+1RJdquAVHADxgVF74Y3KwjcYpuPUKflJ3OTWPUxAKgKAHzpbNN2S5T7RlT9ge2D6onNtcY9Vih5P+8qif1XYscTqAHxuBsE12LlLIz6XZ6V2+R2BjyQorv6YkZkzjXfquAQQ7YmIYHzEH5qZtqJpEPIoo2gy1pWLQVxNzDExk8qlubctFQ+/S9YbBgBu0KfUMKnhEaPqXfsCue6KhaumPlwoieueO0aGQuzJO9m+rPoMq9z03SJ0eE+UDS4kFzr04miXO0MxCkR/2dwt5RXX5glaHkQpOCyz+0DJ2A8SBj6+hrprlfckRebkvhTlDVzlLwv+BXumSoiMzEecNDS5KsDkB33Z3j1WHz4r0D9ZdFNof6b7wlIwh5w8HZjAxUv73EAIKkxjtXZNYBzhFRlu/NEJeiqM6NWMr+I85g0QaQIJ2lvZW5/18dRFrbTPZ9PPXIfuYJsuFtC+89U8DlPZ7pvgB+dEcBOwQ519Ueh67HrHb75Ghebqdl+FP82Ucc4nmyvTgCcg=
+    properties :
+     x : 8
+     y : 8
+     width : 344
+     height : 19
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_RIEN
+    identifier : 0x219d1e2c0999a267
+    internal_properties : CAAAAAgAAAAG3xihO5yI+CZtx47I0uzNQkDpP2hyMWZSR/trN/ChcNOMwZseK6YpLNduuPvLLeE3/Jkg96HXuofRMBseYqDp8RCLC0rOQpymEvgWhuTqKp8nWwzpoDgjPXYvvmck8fyhYn46XxKVCz2TnN0hbqwWRIf7QrFnUw7mTR65X/mDkG71ia2sdUZlmZvflYOAjxQ9fQFe2VRO64INOdsQc0NIWarmHmQnAR5Bl+8cgncYin9an68GaOuGB2x7LFyAHTYdZz6SGt+g7pxsafpDlHstl2eZDIlHxhVVk9toOpiIbDW9KNlVtK/4eGrxKjQ7Klp5vVIkV/U/cW75sxKtxLhdQc5W1QH7p2Q82GG9KX7GKdvrzUn955Drr1l4sRKady7cw60N6XRqlf0OYzwhSDlf/+a0GLPEVQXrVv3TUxvrZSlUITuYyvS++9grymgJdywWVF7Gj108MkAzH68C/5xdSrjmPlC36Jo68oM+dF0UKca1FWJNET7QHRoZA/OZeDjK/QnYZAUG6/na9e408blAlaOcVla5A++ajfxL5N0OztR50OlSzFK1wk2ZDTHgKCo3Ty91eV2+RjJC7E0vFKtHBhx4t7QECbHMGm7cN2WJDfQv/HbPqFthS559Qd7vJp0OBtmnJwAqkl76GThyQJRcZGAnt+goG7xm9dMTDiVh014V34WP7keDs0olGTONzFpTY7t89enrH3pj1lUpRF9D6kU+xsYBLGKzQlN+XOkbs2LGBFiUtXYlN7eqWMDQsO3Upanz1Kd5Z12WLdLRdImoQv1JsJnC
+    properties :
+     x : 48
+     y : 175
+     width : 265
+     height : 219
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ACTIONS
+  identifier : 0x217ab5651a76116f
+  internal_properties : CAAAAAgAAACtoJYhpmZPfnSCkjxhDNqoCWszHd7Gc+8NuGfONKt6y1ktkaf9yaUOjjLHlbMHuII237bgTL+RP3JTLG9So//q4C0UzwWudbjbHvgEcSIGtHZKLXyt5ZUrenSZMrxfb3dtNBdSUNMc6sczuZK9IuXsq53gzXV9P0zsMReSPny7MfFT1KYj5KE0EpFeuko72LexTcmyBFPuTZhnSlU3Vjmt4DX+59pVIlzOxzzEY+0BwIooU4UL3FfvQy5eSxhnH3yKckcEkha4V47o7PRlVm6MDgocdOfHvbmvTSanGo0=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options :
+   -
+     name : OPT_AJOUTER
+     identifier : 0x217bbab9006de170
+     internal_properties : CAAAAAgAAABuwRfSabShLKJ4EQjXLW1/zHA7pUCHh+F4EemsESPtjU3oYjd2H8u1uza1QF3goigBO3TB3G1oikSwj4h2uxvhi7BZTh4hspw/dV5xmvuFOZmh15gE+tzN8bYeg1ruiHzu922aI/viLHFx2BXU00QNUy1JjTWwrx0061bBfpfufY2gv+wrMaRgJnSTMkkRpCXll9Qd1Yeztkq0dCbnY5j7ATs4hXgZcfTGBElScAMA3Wgz457QI54kRjARZLM8Tck8nS3NdpZCC/rnRdmgJwqy85NQ05gz5orHxGrZBIk/Q5E2TWy//Dq6YJH1jBhL++FXSYlTjjSNdYGmzdtseCEs4lkXlR5dlihJ8AK4Q7w/vXj+
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          // Ajoute l'URL via la fenêtre de saisie
+          URLAjoute( )
+         type : 32
+   -
+     name : OPT_QRCODE
+     identifier : 0x217bbb5700a24d30
+     internal_properties : CAAAAAgAAAAJIWNNYlvg4iF8ocGZA0aOOMVpt2REvOa00fVcXrtxMBobb0ljV295XWoi3wUiCYkj4PRAywLMyTW5dnufO58GzoeJYxd9iAUROe1UP0QV1CK9zutJntK1BBwQQAATy96ZfJdw2C1dOg4/sXZyMff5ZlYGMg5HR+7I75nGI2iUlLZc28nXURCAnOSTP00AL6yom8CN111ffRZ1Gj/X7R7jZ5JeJGPazl47ihn6v6ZJKBnELWNLzif1CpG09BXVdcN/11173QO3GYyUzF2dTyz46NDFyRNBCMEjLHnI8GMYLBgOu+KPZ6UfW4d4YLckk0g9RSxVIFf0geebX9jaYckN/pYIzOHKegr56Uj0yqlUu3aEiiVik8BB
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAAAEQzAumUG2CPe2S06uI4wbz8BVqXgBtJYNEz8LgVPOCyOIkE3B4WfHwuKTkXFev7jTgOuzt1MvJs2aKEN1Dl0xypWINcC0fRI7W8h+yw6bEyDf4jvLO6fttQdlZJo9WC98o9GFtHMuN7Rd9Q==
+         code : |1-
+          
+          // Ouvre la fenêtre de scan
+          FEN_QRCODE_URL.OuvreAsynchrone( (), procedure( ValeurRenvoyée est une chaine ) {
+          
+          	// Si une URL a été scannée
+          	SI ValeurRenvoyée <> "" ALORS
+          		
+          		// Programme le téléchargement
+          		TéléchargeElément( ValeurRenvoyée )		
+          	FIN	
+          } )
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ popup_menus :
+  -
+    name : MENU_SUPPRESSION
+    identifier : 0x217bf9e107b297f2
+    internal_properties : CAAAAAgAAABW76NTBDXO9hSOSX6KoWCumWKeTuxAvmM70FwHkXprotuKLZUicxZ0o9HhTKqeKoXsarNYGHEVY9N23eNTl+qOiqMve5XPvkEFaWEiuJeLNtyonKd2PntAX/NGq/r6VB+oVWS83V0EnlIoO0LLAsKriGEanbEpVSq7WCIEUKsxgrDEDmxqvZqJrq9VpK29CtDI0eNXQbXQoTftV8LzCsq9ud7iuafF9yaTPIJZWEGEZQY3xtzLJ0Fj3mwAM/wk6Kg21EcbviCXl/tLYjDeujrpPXTYUK80Tu+s7IVB4ZdZESlM2bG9WgV9z3zTHajtzGkitujDGmb2mwIIXHHYrBpWh74H0sz1Qk9f5JMDCRV6G+lS1i520awW+gETq9xwIZ64Mq8KqA4OrCF/y95bYUUeVC6KUlUkCGy7FKH5mp6QK/63fnlYUrooinI/9OtboQ==
+    options :
+     -
+       name : OPT_SUPPRIMER
+       identifier : 0x217bf9e107b39801
+       internal_properties : CAAAAAgAAADSL8084EQXDqYMwuOuG7+A0WRu+ih3kqwgdGFQB2vID/5Jq7DHpi/RqdGgyFtiBBTBCmAjjXqB6Wy05ra3HSht8Q+L5GkH9FRgCmI2zsI28vZq0paQG+kd48zj+X3x0QJdrYbdkYLdPQ/QO3kvrJ12Ia2vnMfJ/UwHq5ilZ1iWa0G6BdjUqUQrmHK1I8zay8N0NdugJPYEadR+CoQXDo6+6xiE1ar80OalgObbuvjwbuClvIgKB9mQrfTrLT2H6hb9qj0/JPHwY1u6Zh964Tz/kOEcIM7zIaeSCU6hcvHHUY5LnxvrufftMuDPfBGDTZJZnOxNz38cPLF/5Foqjr09dgFmscBcs+S2hedVsoA+LPE3K7Na0IjrP5m2fXBZRletaM8tmbBuLjwCCQCXhuuorNq+7ZgtqmMJ+u6Y1wnObzn9MQ==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Supprime le téléchargement indiqué
+            TéléchargementSupprime( ATT_IDENTIFIANT )
+            
+            // Actualise la liste
+            ActualiseListe()
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1-
+      
+      ActualiseListe() 
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : ActualiseListe
+     internal_properties : CAAAAAgAAAD9kslgbMCem/xWww5rlE2wKAt7y0EnKQQSn72esFspP37Sy3AmOEIcOtFGkxxQhNJ8N07WbWNhtWtT9DZZ8fDUYyags1YKPSmdkcurUpuKTs08AkVyNp7rSe5nGMjdcqBFRutTyj9vQCFm8Rp1VFqr1ZMmIPsVgJllxUMmyZnlfUiAH7S3aVaDcS43u5xmhcJ5keoLYuMtg/o8xW9lV1tJalcGCJQYJSamdBSbNQ3mqp+fbvJp8LPIadwTb6CAhSei1pZx0QdbnmsIkEVM8CDz+n+ZJzH94FCTqPWrF9b2UjdfNkSmLcYPGFQsSgvH7SGMlvLHEHXT3YLtGo8Jvol+qcqXu9u2gVLrO0546N45G9hOAns359kg/CLa1vYUNPwNgSnI/jepJxAEEV33bDw6NU1igljAlFlcnNp61ZVdHzj7y4J0EC9wPxc=
+     procedure_id : 1259527841355417990
+     type_code : 14
+     code : |1-
+      // Résumé : Met à jour la liste des téléchargements
+      // Syntaxe :
+      // ActualiseListe ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure ActualiseListe()
+      
+      	stTéléchargement est un TéléchargementInfo
+      	nTailleOccupée	 est un numerique
+      	nEspaceTotal	 est un numerique
+      
+      	// Vide la liste actuelle
+      	ZR_TELECHARGEMENTS.SupprimeTout()
+      	
+      	// Enumère les téléchargements encore présents
+      	pour tout stTéléchargement de TéléchargementListe()
+      		
+      		// Ajoute le téléchargement dans la liste affichée
+      		nTailleOccupée += AfficheTéléchargement( stTéléchargement )
+      	FIN
+      		
+      	// Calcule l'espace total disponible
+      	pour i = 1 _a_ SysNbStockageExterne()
+      		
+      		// Espace du stockage externe
+      		nEspaceTotal += SysMémoireStockageExterne( i, sysEspaceStockage )
+      	FIN
+      	
+      	// Espace du stockage interne
+      	si EnModeSimulateur() ALORS
+      		nEspaceTotal += SysEspace( sysEspaceProgramme )				
+      	sinon
+      		nEspaceTotal += SysEspace( sysEspaceStockage )		
+      	FIN
+      		
+      	// Complète l'information
+      	LIB_INFO_TAILLETOTALE = "Utilisation de " + TailleVersChaîne( max( 0, nTailleOccupée ) ) + " sur " + TailleVersChaîne( nEspaceTotal )
+      	
+      	LIB_RIEN.Visible = ( ZR_TELECHARGEMENTS.occurrence = 0 )
+     type : 458752
+   -
+     name : TéléchargeElément
+     procedure_id : 1259815024332739141
+     type_code : 14
+     code : |1-
+      // Résumé : Télécharge l'URL demandée
+      // Syntaxe :
+      //TéléchargeElément (<sURL> est chaîne)
+      //
+      // Paramètres :
+      //	sURL (chaîne UNICODE) : URL de l'élément
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure TéléchargeElément( local sURL est une chaine )
+      
+      	stTéléchargement est un TéléchargementParamètre
+      	stInfo 			 est un TéléchargementInfo 
+      	
+      	si EnModeSimulateur() ALORS
+      		erreur( "L'ajout de téléchargements en mode simulateur n'est pas supporté" )
+      		retour
+      	FIN
+      	
+      	// Vérifie rapidement la validité de l'URL
+      	si sURL <> "" _et_ ( sURL [= "https://" _ou_ sURL [= "http://" ) ALORS
+      		
+      		// Création du téléchargement
+      		stTéléchargement.ModeNotification	= téléchargementNotifProgressionEtFin
+      		stTéléchargement.Source 			= sURL
+      		
+      		// Ajoute le téléchargement
+      		soit ID = TéléchargementAjoute( stTéléchargement )
+      		
+      		// Récupère les informations du téléchargement ajouté
+      		stInfo = TéléchargementRécupèreInfo( ID )
+      		
+      		// Affiche le téléchargement
+      		AfficheTéléchargement( stInfo, vrai )
+      		
+      	FIN
+     type : 458752
+   -
+     name : AfficheTéléchargement
+     procedure_id : 1259818279917986785
+     type_code : 14
+     code : |1-
+      // Résumé : Affiche un téléchargement dans la liste
+      // Syntaxe :
+      //[ <Résultat> = ] AfficheTéléchargement (<stTéléchargement> est TéléchargementInfo [, <bPremier> est booléen [, <bPourEdition> est booléen]])
+      //
+      // Paramètres :
+      //	stTéléchargement (TéléchargementInfo) : Info sur le téléchargement
+      //	bPremier (booléen - valeur par défaut=0) : Vrai si on doit afficher le téléchargement en haut de la liste, Faux sinon
+      //	bPourEdition (booléen - valeur par défaut=0) : Vrai si on doit mettre à jour un téléchargement déjà présent, Faux sinon
+      // Valeur de retour :
+      // 	numerique : Nombre d'octets occupés par le téléchargement
+      //
+      procédure AfficheTéléchargement( stTéléchargement est un TéléchargementInfo, bPremier est un booléen = faux, bPourEdition est un booléen = faux ) : numerique
+      
+      	N est un entier
+      	
+      	// Ignore les téléchargements invalides
+      	si pas stTéléchargement.TailleFichier > 0 ALORS
+      		
+      		si bPremier ALORS
+      			
+      			// Actualise la liste
+      			ActualiseListe()		
+      			renvoyer 0
+      		FIN
+      	FIN
+      	
+      	si bPourEdition = faux alors
+      	
+      		// Si on doit afficher le téléchargement en premier dans la liste
+      		si bPremier ALORS
+      			
+      			N = 1
+      			ZR_TELECHARGEMENTS.InsèreLigne( N, stTéléchargement.Identifiant, faux )		
+      			
+      		sinon
+      			
+      			N = ZR_TELECHARGEMENTS.AjouteLigne( stTéléchargement.Identifiant, Faux )		
+      		FIN
+      	sinon
+      		
+      		// Cherche le téléchargement
+      		N = ZoneRépétéeCherche( ATT_IDENTIFIANT, stTéléchargement.Identifiant, rechercheIdentique )
+      		si N pas > 0 ALORS
+      			renvoyer 0
+      		FIN
+      		
+      		ZR_TELECHARGEMENTS[ N ].ATT_ERREUR 	= faux
+      	fin
+      	
+      	// Obtient les infos source 
+      	sInfoType	est une chaine	= URIRécupèreInfo( stTéléchargement.Destination, uriInfoTypeOrigine ) 
+      	
+      	// Extrait le type MIME
+      	sTypeMIME	est une chaine	= sInfoType.ExtraitChaîne( 1 )
+      	
+      	// Taille et état
+      	sInfoTaille	est une chaine
+      	sEtat		est une chaine
+      	
+      	SELON stTéléchargement.Etat
+      	
+      		// Le téléchargement n'a pas débuté
+      		CAS téléchargementEtatEnAttente 
+      			
+      			// 0 sur <Taille totale>
+      			sInfoTaille = "0 sur " + TailleVersChaîne( stTéléchargement.TailleFichier ) + " • " + stTéléchargement.Source.Hôte
+      			sEtat = "Démarrage..."
+      			ZR_TELECHARGEMENTS[ N ].LIB_INFO_FICHIER.Couleur = grisfonce
+      			
+      			// Vérifie régulièrement l'état d'avancement
+      			VérifieTéléchargementRégulièrement( stTéléchargement.Identifiant, téléchargementEtatEnAttente )
+      			
+      		// Le téléchargement est en cours
+      		CAS téléchargementEtatEnCours  
+      			
+      			X est un numerique = stTéléchargement.Avancement
+      			si X <= 0 alors X = 0
+      			
+      			// <Avancement> sur <Taille totale>
+      			sInfoTaille = TailleVersChaîne( X ) + " sur " + TailleVersChaîne( stTéléchargement.TailleFichier ) + " • " + stTéléchargement.Source.Hôte
+      			sEtat = "En cours..."
+      									
+      			// Vérifie régulièrement l'état d'avancement
+      			VérifieTéléchargementRégulièrement( stTéléchargement.Identifiant, téléchargementEtatEnCours )
+      			
+      			// Vérifie régulièrement l'état d'avancement
+      			
+      		// Le téléchargement est en pause
+      		CAS téléchargementEtatPause   
+      			
+      			X est un numerique = stTéléchargement.Avancement
+      			SI X <= 0 ALORS X = 0
+      			
+      			// <Avancement> sur <Taille totale>
+      			sEtat = "En pause"
+      			
+      			SELON stTéléchargement.EtatDétail
+      				CAS téléchargementPauseAttenteNouvelEssai 
+      					sInfoTaille = "Nouvel essai prévu..."
+      					
+      				CAS téléchargementPauseAttentePourWifi  
+      					sInfoTaille = "En attente d'un réseau WIFI..."
+      					
+      				CAS téléchargementPauseAttenteRéseau   
+      					sInfoTaille = "En attente de réseau..."
+      					
+      				CAS téléchargementPauseInconnu  
+      					sInfoTaille = TailleVersChaîne( X ) + " sur " + TailleVersChaîne( stTéléchargement.TailleFichier ) + " • " + stTéléchargement.Source.Hôte
+      					
+      				AUTRES CAS
+      					sInfoTaille = TailleVersChaîne( X ) + " sur " + TailleVersChaîne( stTéléchargement.TailleFichier ) + " • " + stTéléchargement.Source.Hôte
+      			FIN
+      			
+      			ZR_TELECHARGEMENTS[ N ].LIB_INFO_FICHIER.Couleur = OrangeFoncé
+      			
+      			// Vérifie régulièrement l'état d'avancement
+      			VérifieTéléchargementRégulièrement( stTéléchargement.Identifiant, téléchargementEtatPause )
+      			
+      		// Le téléchargement est terminé
+      		CAS téléchargementEtatSuccès    
+      			
+      			// <Taille totale>
+      			sInfoTaille = TailleVersChaîne( stTéléchargement.TailleFichier ) + " • " + stTéléchargement.Source.Hôte
+      			
+      		// Le téléchargement est en erreur
+      		CAS téléchargementEtatEchec    
+      			
+      			sEtat = "En erreur"
+      			
+      			selon stTéléchargement.EtatDétail
+      				CAS téléchargementErreurEspaceInsuffisant
+      					sInfoTaille = "Pas assez d'espace libre"
+      					
+      				CAS téléchargementErreurFichierExistant 
+      					sInfoTaille = "URL invalide"
+      					
+      				CAS téléchargementErreurStockage  
+      					sInfoTaille = "Erreur de stockage inconnue"
+      					
+      				CAS téléchargementErreurInconnu 
+      					sInfoTaille = "Erreur inconnue"
+      					
+      				autres cas
+      					sInfoTaille = "Erreur inconnue"
+      			FIN
+      			
+      			ZR_TELECHARGEMENTS[ N ].ATT_ERREUR 	= vrai
+      			ZR_TELECHARGEMENTS[ N ].LIB_INFO_FICHIER.Couleur = rougefonce
+      			
+      	FIN
+      	
+      	// Affiche le nom du fichier téléchargé
+      	ZR_TELECHARGEMENTS[ N ].LIB_NOM_FICHIER					= URIRécupèreInfo( stTéléchargement.Destination, uriInfoNom ) + sInfoType.ExtraitChaîne( 2 ) + ( [ " - " ] + sEtat )
+      	ZR_TELECHARGEMENTS[ N ].LIB_INFO_FICHIER				= sInfoTaille
+      		
+      renvoyer stTéléchargement.TailleFichier
+     type : 458752
+   -
+     name : VérifieTéléchargementRégulièrement
+     internal_properties : CAAAAAgAAAA5yvQThi6xoki6ht9swvLRW8h9MmVzEPZAFbUUmpc5oLaEN5YtU7bSgNGmxUtQgyiOkgMAz89365sE0opLJC5ghn89n7vZH50F4TGiaabmP8USB+QNXFPhRxiQriEWKP0sfJpCUXljKY1T/vEqjQ==
+     procedure_id : 1259874290587279939
+     type_code : 14
+     code : |1-
+      // Résumé : Vérifie un téléchargement régulièrement
+      // Syntaxe :
+      //VérifieTéléchargementRégulièrement (<ID> est chaîne, <nEtat> est entier)
+      //
+      // Paramètres :
+      //	ID (chaîne UNICODE) : Identifiant du téléchargement
+      //	nEtat (entier) : Etat actuel du téléchargement
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code, avec un différé de 25 centièmes de seconde
+      // Elle s'exécutera dans un thread sécurisé (sans avoir besoin d'appeler la fonction ThreadExecute), sans utilisation de HFSQL
+      // Elle sera répétée en boucle, en attendant 1 seconde entre chaque appel
+      // 
+      
+      procédure VérifieTéléchargementRégulièrement( local ID est une chaine, local nEtat est un entier )
+      
+      	stTéléchargementActualisé est un TéléchargementInfo
+      	
+      	// Actualise les informations du téléchargement
+      	stTéléchargementActualisé = TéléchargementRécupèreInfo( ID )
+      	
+      	// Si le téléchargement était en attente ou en pause
+      	si nEtat dans ( téléchargementEtatEnAttente, téléchargementEtatPause ) ALORS
+      		
+      		// Si son état n'a pas changé
+      		si stTéléchargementActualisé.Etat = nEtat ALORS
+      			
+      			// Ignore la suite, prochain passage
+      			retour
+      		FIN		
+      	FIN
+      	
+      	// Si le téléchargement était terminé
+      	si nEtat dans ( téléchargementEtatEchec, téléchargementEtatSuccès ) ALORS
+      	
+      		// Arrête le timer
+      		FinAutomatismeProcédure()
+      		retour
+      	FIN
+      	
+      	// Mise à jour
+      	ExécuteThreadPrincipal( () => { 
+      			
+      		// Actualise
+      		AfficheTéléchargement( stTéléchargementActualisé, Faux, Vrai )
+      		
+      		// Si le téléchargement n'est plus en cours
+      		SI stTéléchargementActualisé.Etat <> téléchargementEtatEnCours ALORS
+      			
+      			// Actualise la liste
+      			ActualiseListe()		
+      		FIN		
+      
+      	} )
+      	
+      	// Fin du téléchargement
+      	SI stTéléchargementActualisé.Etat dans ( téléchargementEtatEchec, téléchargementEtatSuccès ) ALORS
+      		
+      		// Arrête le timer
+      		FinAutomatismeProcédure()
+      	FIN
+     type : 458752
+   -
+     name : URLAjoute
+     procedure_id : 1269569779824832637
+     type_code : 14
+     code : |1-
+      // Résumé : Ajoute une URL par saisie
+      // Syntaxe :
+      //URLAjoute ( [<sURLDéfaut> est chaîne])
+      //
+      // Paramètres :
+      // 	sURLDéfaut (chaîne UNICODE - valeur par défaut="") : URL par défaut
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure URLAjoute( sURLDéfaut est une chaine = "" )
+      
+      	// Ouvre la popup de saisie de l'URL
+      	FEN_POP_URL.OuvrePopupAsynchrone( ( sURLDéfaut ), popCentréFenêtre, procédure( ValeurRenvoyée est une chaîne ) {
+      		
+      		// Si la saisie a été validée
+      		SI ValeurRenvoyée <> "" ALORS
+      			
+      			// Programme le téléchargement
+      			TéléchargeElément( ValeurRenvoyée )		
+      		FIN	
+      		
+      	} )
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x117ab55e00b3f79d
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
